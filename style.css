@@ -56,6 +56,10 @@ nav form button[type="submit"] {
 	cursor: pointer;
 }
 
+button[type="submit"] svg {
+    height: 20px;
+}
+
 section {
 	background-color: #fff;
 	padding: 50px;
