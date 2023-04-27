@@ -5,7 +5,7 @@ body {
 }
 
 header {
-	background-color: #00407d;
+	background-color: #fff;
 	color: #fff;
 	display: flex;
 	align-items: center;
@@ -14,12 +14,13 @@ header {
 }
 
 .logo img {
-	height: 50px;
+	height: 100px;
 }
 
 nav ul {
 	list-style: none;
 	display: flex;
+	align-items: center;
 }
 
 nav ul li {
@@ -27,12 +28,36 @@ nav ul li {
 }
 
 nav ul li a {
-	color: #fff;
+	color: #00407d;
 	text-decoration: none;
 }
 
+nav ul li:last-child {
+	margin-right: 0;
+}
+
+nav form {
+	display: flex;
+	align-items: center;
+}
+
+nav form input[type="text"] {
+	padding: 5px;
+	border: none;
+	border-radius: 3px;
+	margin-right: 10px;
+}
+
+nav form button[type="submit"] {
+	background-color: #fff;
+	border: none;
+	padding: 5px;
+	border-radius: 3px;
+	cursor: pointer;
+}
+
 section {
-	background-color: #f2f2f2;
+	background-color: #fff;
 	padding: 50px;
 	text-align: center;
 }
